@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+       "strict": true,
+       "module": "CommonJS",
+       "target": "es6",
+       "esModuleInterop": true,
+       "sourceMap": true,
+       "rootDir": "src",
+       "lib": ["es2020", "DOM"],
+       "outDir": "dist/js",
+       "noEmitOnError": true,
+       "typeRoots": [ "node_modules/@types" ],
+       "jsx": "react"
+    },
+    "include": ["**/*.ts", "node_modules/chrome-types/index.d.ts", "src/scripts/panel.tsx"],
+    "exclude": ["node_modules", "dist", "**/*.test.ts"]
+ }
